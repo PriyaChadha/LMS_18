@@ -75,7 +75,7 @@ function draw() {
   background(bkgImg);
   textSize(20)
   fill("black")
-  text("Score: "+ score, width-150,150);
+  text("Score: "+ score, width/2,150);
   
   if (gameState===PLAY){
     score = score + Math.round(getFrameRate()/60);
